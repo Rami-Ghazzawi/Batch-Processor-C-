@@ -1,0 +1,15 @@
+# Compiled binaries
+app
+parallel
+race
+parallel_tsan
+
+# Object files
+*.o
+
+# Debug files
+*.out
+
+# Editor files
+.vscode/
+.idea/
