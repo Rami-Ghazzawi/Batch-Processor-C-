@@ -78,7 +78,6 @@ int main()
     }
 
     file.close();
-
     // Parallel Processing
     std::atomic<size_t> next{0};
 
@@ -105,11 +104,6 @@ int main()
                 // Process Job
                 results[i] = count_primes(jobs[i].n);
             } });
-    }
-
-    for (auto &worker : workers)
-    {
-        worker.join();
     }
 
     auto end = std::chrono::steady_clock::now();
