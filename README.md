@@ -6,7 +6,7 @@ A C++ project exploring parallel and distributed batch processing.
 
 **Goal:** Build a distributed coordinator-worker system using TCP sockets.
 
-**Status:** Work in Progress 🚧
+**Status:** Work in Progress..
 
 ## Technologies
 
